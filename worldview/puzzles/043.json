@@ -1,0 +1,22 @@
+{
+  "id": 43,
+  "answer": "Princess Diana",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Diana%2C_Princess_of_Wales_1997.jpg/600px-Diana%2C_Princess_of_Wales_1997.jpg",
+  "openingClue": "Banned landmines",
+  "openingReveal": { "cx": 200, "cy": 140, "r": 60 },
+  "clues": [
+    { "text": "Paris, 1997", "story": "Diana died in a car crash in Paris on 31 August 1997, aged 36." },
+    { "text": "Candle in the Wind", "story": "Elton John rewrote his 1973 song as a tribute — the best-selling single of all time." }
+  ],
+  "reveals": [
+    { "cx": 130, "cy": 260, "r": 55 },
+    { "cx": 290, "cy": 270, "r": 45 }
+  ],
+  "www": {
+    "early": "It's a Who",
+    "mid": "Who? 2 words, 14 letters",
+    "late": "Who?  P _ _ n c _ s s   D _ _ n _"
+  },
+  "judgeHints": "This is Diana, Princess of Wales. Reject Diana Ross or Princess Anne.",
+  "finalStory": "Diana, Princess of Wales (1961–1997) — global icon for humanitarian work including her landmines campaign."
+}
