@@ -1,11 +1,14 @@
 export default async (request) => {
   try {
+    const key = Netlify.env.get("ANTHROPIC_API_KEY");
+    console.log("KEY DEBUG:", key ? `present, length ${key.length}, starts ${key.slice(0,15)}` : "MISSING");
+    
     const body = await request.json();
     const apiResponse = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": Netlify.env.get("ANTHROPIC_API_KEY"),
+        "x-api-key": key,
         "anthropic-version": "2023-06-01"
       },
       body: JSON.stringify(body)
